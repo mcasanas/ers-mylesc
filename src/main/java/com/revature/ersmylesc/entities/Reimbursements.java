@@ -30,7 +30,7 @@ public class Reimbursements implements Serializable{
 	@Column(name = "DESCRIPTION")
 	private String description;
 	
-	@ManyToOne(fetch = FetchType.LAZY)
+	/*@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id", referencedColumnName="ID",nullable=true)
-	private Users users;
+	private Users users;*/
 }
